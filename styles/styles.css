@@ -1,0 +1,21 @@
+@import url("reset.css");
+
+/* 
+   James Neufeld
+   jamesdneufeld@gmail.com
+   jamesneufeld.ca
+*/
+
+html { height:100%; /* Required for min-height: 100% in section */ }
+body { height:100%; /* Required for min-height: 100% in section */ color: #333; font-family: Oswald, Arial, sans-serif; padding: 0px; margin: 0px auto; }
+h1 { font-size: 3em; line-height: 1; margin-bottom: 1em; }
+h2 { font-size: 2em; line-height: 1; margin-bottom: 1em; }
+p { line-height: 1.5; margin-bottom: 1em;}
+section { min-height: 100%; /* Needs parent height to be 100% */ width: 100%; }
+section .inside {padding: 50px 75px;}
+#header { background: #39f; color: #fff; }
+#about { background: url(../assets/dark_stripes.png) repeat; color: #fff; }
+#contact { background: #39f; color: #fff; }
+#photo { color: #fff; background: url(../assets/rain-over-toronto-street-lights-by-silent-shot.jpg) no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+#photo .box { background-color:rgba(51,153,255,0.8); padding: 25px; width: 600px; border: 1px solid rgb(51,153,255);}
+#footer { color: #fff; background: url(../assets/running_through_the_rain_by_turst67-d6scius.gif) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
